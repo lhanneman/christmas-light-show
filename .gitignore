@@ -18,6 +18,3 @@ sftp-config.json
 # Ignore all LED configs except default
 Led[0-9].cfg
 
-music/lloyd
-music/techno
-music/xmas
