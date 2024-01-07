@@ -60,7 +60,7 @@ atexit.register(exit_function)
 signal.signal(signal.SIGINT, signal.SIG_IGN)
 
 # Test if running on a RaspberryPi
-is_a_raspberryPI = Platform.platform_detect() == 1
+is_a_raspberryPI = True
 
 if is_a_raspberryPI:
     import wiringpipy as wiringpi
